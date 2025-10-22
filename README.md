@@ -1,86 +1,113 @@
-# 🧩 Production Management Optimization Case (PMOS)
-**Author:** Dean Phạm  
-**Role:** Business Analyst  
-**Project Type:** Business Analysis Case Study – SME Manufacturing (Vietnam)  
+# 🏭 Production Management Optimization Case  
+**A Business Analyst Case Study by Dean Phạm**  
 
 ---
 
-## 📘 Overview
+## 🧭 Project Overview  
 
-This project presents a case about optimizing production management for **small and medium-sized manufacturing enterprises (SMEs)** in Vietnam.
+This project presents a **Business Analysis case study** on optimizing **production management processes for small and medium-sized manufacturing enterprises (SMEs)**.  
 
-The case addresses the common challenges faced by SMEs — such as **manual reporting**, **delayed decision-making**, and **data fragmentation** between HR, Production, and Quality Control departments — by designing a **low-cost, digital Production Management Optimization System (PMOS)**.
+The goal was to **reduce inefficiencies, manual work, and data fragmentation** by proposing a **lean digital Production Management System (PMS)** that integrates planning, operations, and HR data for real-time visibility and performance tracking.  
 
----
-
-## 🎯 Business Context
-
-Most SMEs in Vietnam still manage production using:
-- Excel and paper-based tracking  
-- Isolated HR and QC reporting  
-- Manual daily summaries with 1–2 days delay  
-
-As a result, they face:
-- **Idle time and delayed shift planning**  
-- **Low production visibility and inaccurate KPIs**  
-- **Disconnection between HR, Production, and QC**
-
-**PMOS** solves this by introducing an **integrated, low-code solution** (Google AppSheet / Odoo / Power BI) that tracks production performance, operator attendance, and quality metrics **in real-time**.
+The case study simulates a real-world BA workflow — from stakeholder elicitation to requirement documentation and solution design — following **BABOK-aligned practices**.  
 
 ---
 
-## 🧠 Project Goal
+## 🎯 Business Objective  
 
-To design a **digital transformation blueprint** for SMEs that:
-- Enhances **operational efficiency** and **data accuracy**
-- Enables **real-time performance visibility**
-- Provides **automated reporting and KPI dashboards**
-- Reduces **manual work and decision latency**
+> To streamline production operations for SMEs by introducing a simple, scalable, and affordable digital workflow that improves planning accuracy, reduces downtime, and enhances decision-making visibility.  
 
----
-
-## 📈 Expected Outcomes
-
-| **Metric** | **Before (AS-IS)** | **After (TO-BE)** | **Improvement** |
-|-------------|--------------------|-------------------|------------------|
-| Planning Time | 3–4 hours/day | <1 hour/day | ⏱ 70% faster |
-| Data Accuracy | 60% | 95% | 📊 +35% |
-| Report Delay | 1–2 days | Real-time | ⚡ 100% faster |
-| HR–Production Sync | Manual | Automated | 🔗 Full Integration |
-| KPI Visibility | None | Live Dashboards | 📈 Continuous Tracking |
+**Expected Outcomes:**  
+- Reduce manual reporting and delays by automating daily operation tracking  
+- Integrate HR attendance with production planning  
+- Visualize machine and operator performance (OEE, downtime, efficiency)  
+- Improve data accuracy and team collaboration across departments  
 
 ---
 
-## 🧩 Deliverables (14 BA Artifacts)
+## 🧩 Project Structure  
 
-| **Phase** | **Deliverable** | **Description** |
-|------------|-----------------|-----------------|
-| **1. Initiation** | 📝 Project Charter | Defines goals, objectives, timeline, stakeholders. |
-| **2. Strategy Analysis** | 💡 Business Needs & Objectives | Identifies problems and measurable success targets. |
-| **3. Stakeholder Analysis** | 👥 Stakeholder Mapping & Engagement Strategy | Defines roles, interests, influence, and engagement plan. |
-| **4. Elicitation Planning** | 🎙 Requirement Elicitation Plan & Interview Guide | Outlines elicitation methods and stakeholder questions. |
-| **5. Requirement Gathering** | 🧾 Requirement Gathering Report | Summarizes stakeholder insights and pain points. |
-| **6. Current State Analysis** | 🔍 AS-IS Process Mapping | Visual diagram of current manual workflow. |
-|  | ⚙ AS-IS Process Analysis | Identifies inefficiencies, delays, and bottlenecks. |
-| **7. Future State Design** | 🚀 TO-BE Process (Solution Design) | Illustrates optimized, digital workflow. |
-|  | 🧩 Solution Set-Up | Defines PMOS modules, functionality, and integrations. |
-| **8. Requirements Definition** | ✅ Functional Requirement Document | Details system capabilities and logic. |
-|  | 🔒 Non-Functional Requirement | Defines system behavior, scalability, and usability. |
-| **9. Validation & Feasibility** | 📊 Gap Analysis | Compares AS-IS and TO-BE states to identify key improvements. |
-|  | 🧭 Feasibility & Requirement Analysis | Evaluates timeline, cost, and technology feasibility. |
-| **10. Consolidation** | 📘 Business Requirements Document (BRD) | Combines all requirements into a formal proposal. |
+| # | Document Title | Description |
+|--|----------------|--------------|
+| 1 | **Project Charter** | Defines the project scope, goals, stakeholders, and success criteria. |
+| 2 | **Business Needs & Objectives** | Identifies business pain points and improvement opportunities for SME production systems. |
+| 3 | **Stakeholder Mapping & Analysis** | Defines key internal and external stakeholders, their influence, and information needs. |
+| 4 | **Stakeholder Requirement Elicitation Plan & Interview Guide** | Outlines approach and questions used to gather user requirements. |
+| 5 | **Requirement Gathering Report** | Summarizes findings from stakeholder interviews and workshops. |
+| 6 | **AS-IS Process Mapping** | Documents the current (manual) production workflow using flow diagrams. |
+| 7 | **AS-IS Process Analysis** | Analyzes inefficiencies, bottlenecks, and data gaps in the existing workflow. |
+| 8 | **TO-BE Process (Solution Design)** | Proposes an optimized digital workflow and automation process. |
+| 9 | **Gap Analysis** | Highlights differences between current and future states, prioritizing improvements. |
+| 10 | **Functional Requirement Specification** | Defines required system functions such as scheduling, reporting, and data integration. |
+| 11 | **Non-Functional Requirements** | Specifies performance, usability, scalability, and security requirements. |
+| 12 | **Feasibility and Requirement Analysis** | Evaluates technical, financial, and operational feasibility. |
+| 13 | **Solution Setup** | Details proposed architecture and tool selection (e.g., PMS, Power BI, HR integration). |
+| 14 | **Business Requirements Document (BRD)** | Consolidates all validated requirements and serves as a handover document for development. |
 
 ---
 
-## 🧰 Tools & Techniques Used
+## ⚙️ Tools & Techniques  
 
-| **Category** | **Tools / Techniques** |
-|---------------|------------------------|
-| Process Modeling | Draw.io (AS-IS / TO-BE / Swimlane Diagrams) |
-| Data Analysis & Reporting | Power BI, Google Data Studio |
-| Requirement Documentation | Notion, Google Docs, Jira |
-| System Simulation | Odoo (Manufacturing module), Google AppSheet |
-| Communication | Miro, Google Meet, Zoom |
+| Category | Tools / Methods |
+|-----------|----------------|
+| **Business Analysis Framework** | BABOK v3 |
+| **Process Design & Mapping** | Draw.io |
+| **Requirement Elicitation** | Interviews, Observation, Document Analysis |
+| **Data Visualization** | Power BI, Google Data Studio |
+| **Documentation & Collaboration** | Google Workspace, Notion, Miro |
+| **Solution Recommendation** | Odoo ERP / Google AppScript, Power Automate |
 
+---
 
+## 🧠 Key Insights  
 
+- **Manual production management** in SMEs leads to errors, scheduling conflicts, and limited visibility.  
+- By introducing **digital workflows**, even small factories can achieve:  
+  - Centralized data access  
+  - Real-time KPI monitoring  
+  - 30–40% reduction in process delays  
+- The **solution design** focuses on affordability and scalability — a crucial factor for SME adoption.
+
+---
+
+## 📊 Expected Business Impact  
+
+| Metric | Before | After Implementation |
+|--------|--------|----------------------|
+| Planning time | 3–4 hrs/day | <1 hr/day |
+| Manual reporting errors | ~20% | <5% |
+| Decision latency | 1 day | Real-time |
+| Machine downtime | 15% | <8% |
+| Data consistency | 60% | 95% |
+
+---
+
+## 📁 Repository Contents  
+
+This repository includes all project documentation in PDF format:  
+- ✅ **Business & Functional Analysis**  
+- ✅ **Process Maps (AS-IS / TO-BE)**  
+- ✅ **Requirements Documentation (BRD, FRD, NFRD)**  
+- ✅ **Solution Design & Feasibility Report**
+
+Each file is structured for clear traceability across the **BA lifecycle**:
+> *Initiation → Elicitation → Analysis → Design → Validation.*
+
+---
+
+## 💼 About the Analyst  
+
+👤 **Dean Phạm**  
+**Role:** Project Lead / Business Analyst  
+**Focus Areas:** Business Process Optimization, UX Thinking, Product Development  
+
+💬 *I’m passionate about connecting business needs with data, design, and technology to create measurable, human-centered solutions.*  
+
+📫 **Contact:**  
+- [LinkedIn](https://linkedin.com/in/pham-nguyen-ky-duyen-699697209)  
+- [Email](mailto:kyduyenpham779@gmail.com)  
+- [Portfolio](https://github.com/kyduyenpham/deanpham)
+
+---
+
+> 🧩 *This project demonstrates end-to-end Business Analysis capability — from understanding stakeholder needs to defining practical, scalable digital solutions for real-world SME challenges.*
