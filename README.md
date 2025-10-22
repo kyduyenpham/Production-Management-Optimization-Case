@@ -82,7 +82,5 @@ To design a **digital transformation blueprint** for SMEs that:
 | System Simulation | Odoo (Manufacturing module), Google AppSheet |
 | Communication | Miro, Google Meet, Zoom |
 
----
 
-## 🧭 Repository Structure
 
